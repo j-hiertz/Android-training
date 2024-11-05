@@ -8,7 +8,3 @@ class PaperBook(
     var numberOfPages: Int,
     var bookStatus: BookStatus = BookStatus.AVAILABLE
 ) : Book(title, author, publicationYear, category)
-
-enum class BookStatus2 {
-
-}
