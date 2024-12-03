@@ -103,8 +103,8 @@ fun TodoItemRow(
             CategoryImage(res = todoItem.categoryResId, modifier = Modifier.size(64.dp))
             Todo(
                 title = todoItem.title, modifier = Modifier
-                    .weight(1f)
                     .padding(horizontal = 16.dp)
+                    .weight(1f)
             )
             Checkbox(checked = todoItem.isCompleted, onCheckedChange = { toggleTodoItem(todoItem) })
         }
