@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TP08_squeleton</string>
+    <string name="create_recipe">Create Recipe</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="preparation_time_minutes">Preparation Time (minutes)</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_e_g_grams_cups">Unit (e.g., grams, cups)</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="recipe_list">Recipe List</string>
+    <string name="ingredients_size">Ingredients: %1$s</string>
+    <string name="no_recipes_available">No recipes available</string>
+    <string name="delete_recipe">Delete Recipe</string>
+</resources>
