@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP_09_Architecture</string>
+    <string name="instructions">Déchiffrez le mot en utilisant toutes les lettres.</string>
+    <string name="submit">Envoyer</string>
+    <string name="skip">Passer</string>
+    <string name="score">Score: %d</string>
+    <string name="word_count">%d/10</string>
+    <string name="enter_your_word">Entrez votre mot</string>
+    <string name="congratulations">Félicitations !</string>
+    <string name="you_scored">"Votre score: %d"</string>
+    <string name="exit">Quitter</string>
+    <string name="play_again">Rejouer</string>
+    <string name="wrong_guess">Faux !</string>
+</resources>
