@@ -7,9 +7,3 @@ local.properties
 .DS_Store
 *.apk
 .kotlin/
-
-TP_5/*
-TP_6/*
-TP_7/*
-TP_8/*
-TP_9/*

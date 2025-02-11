@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TP_10_Navigation</string>
+    <string name="navigate_to_screen_b">Navigate to Screen B!</string>
+</resources>

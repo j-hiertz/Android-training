@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TP_05_Correction</string>
+    <string name="search">Rechercher</string>
+    <string name="moba">Moba</string>
+    <string name="fps">FPS</string>
+    <string name="action">Action</string>
+    <string name="sport">Sport</string>
+    <string name="rpg">RPG</string>
+    <string name="platform">Platform</string>
+    <string name="league_of_legends">League of Legends</string>
+    <string name="hades">Hades 2</string>
+    <string name="zelda">Zelda Tears of the Kingdom</string>
+    <string name="diablo">Diablo 4</string>
+    <string name="game_category">Game category</string>
+    <string name="favorite_collections">Favorite collections</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+</resources>
