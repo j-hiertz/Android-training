@@ -9,13 +9,14 @@ import com.example.tp_09_correction.data.MAX_WORDS
 import com.example.tp_09_correction.data.SCORE_INCREASE
 import com.example.tp_09_correction.data.allWords
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
 class GameViewModel : ViewModel() {
 
     private val _uiState = MutableStateFlow(GameUiState())
-    val uiState = _uiState.asStateFlow()
+    val uiState : StateFlow<GameUiState> = _uiState.asStateFlow()
 
     private lateinit var currentWord: String
     private var usedWords: MutableSet<String> = mutableSetOf()
@@ -58,7 +59,7 @@ class GameViewModel : ViewModel() {
 
     fun checkUserGuess() {
         if (userGuess.equals(currentWord, ignoreCase = true)) {
-            val updatedScore = _uiState.value.score.plus(SCORE_INCREASE)
+            val updatedScore = _uiState.value.score + SCORE_INCREASE
             updateGameState(updatedScore)
         } else {
             _uiState.update { currentstate ->

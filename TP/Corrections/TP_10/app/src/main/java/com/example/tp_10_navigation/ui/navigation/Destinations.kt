@@ -11,7 +11,8 @@ import com.example.tp_10_navigation.ui.screens.SecondScreen
 import com.example.tp_10_navigation.ui.screens.SettingsScreen
 import kotlinx.serialization.Serializable
 
-@Serializable data object HomeRoute // route for home screen
+@Serializable
+data object HomeRoute // route for home screen
 
 fun NavGraphBuilder.homeRoute(
     onButtonClick: (SecondRoute) -> Unit,

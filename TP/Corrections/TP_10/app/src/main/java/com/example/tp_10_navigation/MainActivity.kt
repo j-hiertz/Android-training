@@ -21,6 +21,7 @@ import com.example.tp_10_navigation.ui.theme.TP_10_NavigationTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
         enableEdgeToEdge()
         setContent {
             TP_10_NavigationTheme {

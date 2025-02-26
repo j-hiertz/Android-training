@@ -27,7 +27,7 @@ class RecipeViewModel(application: Application) : AndroidViewModel(application) 
 
     private fun loadRecipesWithIngredients() {
         executor.execute {
-            val recipes = recipeDao.getAllRecipesWithIngredients()
+            val recipes: List<RecipeWithIngredients> = recipeDao.getAllRecipesWithIngredients()
             _recipesWithIngredients.value = recipes
         }
     }

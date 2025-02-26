@@ -23,7 +23,7 @@ fun HomeScreen(
         Button(
             modifier = Modifier.align(alignment = Alignment.Center),
             onClick = {
-                onButtonClick(SecondRoute(age = 20))
+                onButtonClick(SecondRoute(age = 30))
             }
         ) {
             Text(stringResource(R.string.navigate_to_screen_b))

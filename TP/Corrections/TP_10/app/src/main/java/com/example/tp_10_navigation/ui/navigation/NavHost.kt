@@ -18,6 +18,9 @@ fun AppNavHost(
     ) {
         homeRoute(
             onButtonClick = navController::navigateToSecondScreen
+//            { secondRoute ->
+//                navController.navigateToSecondScreen(secondRoute)
+//            }
         )
 
         secondRoute(
